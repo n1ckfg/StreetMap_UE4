@@ -1,0 +1,3 @@
+[submodule "Plugins/StreetMap"]
+	path = Plugins/StreetMap
+	url = git@github.com:n1ckfg/StreetMap
