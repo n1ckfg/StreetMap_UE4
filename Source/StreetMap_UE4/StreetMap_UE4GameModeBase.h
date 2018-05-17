@@ -10,7 +10,7 @@
  * 
  */
 UCLASS()
-class StreetMap_UE4_API AStreetMap_UE4GameModeBase : public AGameModeBase
+class STREETMAP_UE4_API AStreetMap_UE4GameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
