@@ -4,14 +4,14 @@ rm -rf Binaries
 rm -rf DerivedDataCache
 rm -rf Intermediate
 rm -rf Saved
-#rm -f CMakeLists.txt
-#rm -f Makefile
-#rm -f *.workspace
-#rm -f *.pri
-#rm -f *.kdev4
-#rm -f *.pro
-#rm -f *CodeCompletionFolders.txt
-#rm -f *CodeLitePreProcessor.txt
+rm -f CMakeLists.txt
+rm -f Makefile
+rm -f *.workspace
+rm -f *.pri
+rm -f *.kdev4
+rm -f *.pro
+rm -f *CodeCompletionFolders.txt
+rm -f *CodeLitePreProcessor.txt
 
 for d in ./Plugins/*; do
   if [ -d "$d" ]; then
