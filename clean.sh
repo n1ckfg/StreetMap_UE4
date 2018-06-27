@@ -1,5 +1,6 @@
 #!/bin/bash
 
+rm -rf Build
 rm -rf Binaries
 rm -rf DerivedDataCache
 rm -rf Intermediate
