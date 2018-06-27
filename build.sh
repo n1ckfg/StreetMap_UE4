@@ -7,4 +7,6 @@ PROJECT=$(basename $PWD)
 # removing this line from the .uproject forces a rebuild
 #sed -i '/EngineAssociation/d' ./$PROJECT.uproject
 
+# other switches
+# -editor
 $UE_ROOT"/Engine/Binaries/Linux/UE4Editor" $PWD"/"$PROJECT".uproject" -game
