@@ -2,11 +2,18 @@
 	"FileVersion": 3,
 	"Category": "",
 	"Description": "",
+	"EngineAssociation": "4.19",
 	"Modules": [
 		{
 			"Name": "StreetMap_UE4",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "SteamVR",
+			"Enabled": false
 		}
 	]
 }
